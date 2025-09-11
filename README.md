@@ -1,2 +1,7 @@
-# Heart-Disease-prediction-
-Built a Decison tree classifier model to predict whether a person is having heart disease/No .Improved performance of model by tuning hyperparameters
+# 💖 Heart Disease Prediction Project
+
+## 📌 Project Aim
+This project aims to develop a machine learning model to predict the presence of heart disease in patients based on various medical attributes. The dataset used (`heart_disease.csv`) contains patient health records with features such as 🧓 age, ⚧️ sex, 💓 chest pain type, 💉 resting blood pressure, 🍳 cholesterol level, 🍬 fasting blood sugar, 🫀 resting ECG results, 🏃‍♂️ maximum heart rate achieved, 🚫 exercise-induced angina, 📉 oldpeak (ST depression), 📈 slope of the ST segment, 🧪 number of major vessels colored by fluoroscopy, and 🧬 thalassemia type, along with a target label indicating the presence (1) or absence (0) of heart disease. The project works by preprocessing the dataset, performing exploratory data analysis to identify key risk factors, splitting the data into training and testing sets, and applying classification algorithms (like Logistic Regression, Decision Tree, or Random Forest) to predict heart disease.
+
+## 🌍 Applications & Future Scope
+The trained model can assist healthcare professionals in early diagnosis and risk assessment, making it useful in 🏥 hospitals, 🧪 diagnostic centers, and 📲 health-monitoring applications. In the future, this project can be enhanced by incorporating larger and more diverse datasets, integrating real-time patient data from wearable devices ⌚, and deploying the model as a web or mobile application 💻📱 for easy access and timely predictions.
