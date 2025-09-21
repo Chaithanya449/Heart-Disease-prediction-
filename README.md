@@ -1,4 +1,4 @@
-# 💖 Heart Disease Prediction Project
+# Heart Disease Prediction Project
 
 ## 📌 Project Aim
 This project aims to develop a machine learning model to predict the presence of heart disease in patients based on various medical attributes. The dataset used (`heart_disease.csv`) contains patient health records with features such as 🧓 age, ⚧️ sex, 💓 chest pain type, 💉 resting blood pressure, 🍳 cholesterol level, 🍬 fasting blood sugar, 🫀 resting ECG results, 🏃‍♂️ maximum heart rate achieved, 🚫 exercise-induced angina, 📉 oldpeak (ST depression), 📈 slope of the ST segment, 🧪 number of major vessels colored by fluoroscopy, and 🧬 thalassemia type, along with a target label indicating the presence (1) or absence (0) of heart disease. The project works by preprocessing the dataset, performing exploratory data analysis to identify key risk factors, splitting the data into training and testing sets, and applying classification algorithms (like Logistic Regression, Decision Tree, or Random Forest) to predict heart disease.
