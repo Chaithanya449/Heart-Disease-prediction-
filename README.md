@@ -1,66 +1,66 @@
-❤️ Predicting Heart Disease with Code
-This project uses patient data to build a tool that can guess if someone has heart disease. The main goal is to help doctors find the disease early.
+❤️ Heart Disease Prediction using Machine Learning
 
-🎯 Why This Project is Important
-Heart disease is a very serious health problem. Finding it early can save a life. This tool can help by:
+📌 Problem
 
-Finding patients with high risk much sooner.
+Heart disease remains one of the leading causes of death worldwide.
+Early detection can significantly improve treatment outcomes and save lives.
 
-Giving doctors a helpful second opinion.
+This project builds a machine learning-based prediction system that analyzes patient medical attributes and predicts whether a person is likely to have heart disease.
 
-Making it faster to check for heart disease.
+The goal is to demonstrate how data science and machine learning can assist healthcare professionals in early diagnosis and risk assessment.
 
-⚙️ How It Works: Our Steps
-Clean the Data: We found and fixed the missing information in the dataset.
+📊 Dataset
 
-Prepare the Data: We turned all text data into numbers so the computer could understand it. We made the goal simple: 0 (No Disease) or 1 (Has Disease).
+The dataset contains patient medical records with various clinical features related to heart health.
 
-Train the Models: We used most of the data to "teach" 7 different computer models how to spot the patterns of heart disease.
+Dataset file:
+heart_disease.csv
 
-🤖 The Models We Tested
-We tested seven models to see which one was the best for this job:
+Features Included
 
-Logistic Regression
+Age
 
-Gaussian Naive Bayes (NB)
+Sex
 
-Random Forest
+Chest Pain Type
 
-XGBoost
+Resting Blood Pressure
 
-Decision Tree
+Cholesterol
 
-Support Vector Machine (SVM)
+Fasting Blood Sugar
 
-K-Nearest Neighbors (KNN)
+Resting ECG
 
-🏆 Results: Which Model Won?
-We used the rest of the data to test each model's accuracy. Here are the scores:
+Maximum Heart Rate Achieved
 
-Rank	Model	Accuracy (%)
-1	Logistic Regression	83.52%
-2	Gaussian NB	82.42%
-3	Random Forest	81.32%
-4	XGBoost	79.12%
-5	Decision Tree	78.02%
-6	SVM	71.43%
-7	KNN	68.68%
+Exercise Induced Angina
 
-Export to Sheets
-Best Model: Logistic Regression
-This model won because it's simple and very good at finding straightforward patterns. It wasn't easily fooled by complex data.
+ST Depression
 
-Worst Model: K-Nearest Neighbors (KNN)
-This model did poorly because it gets confused when numbers are on different scales (like age 20-80 vs. gender 0-1). We learned that we must scale our numbers for this model to work well.
+Slope of ST Segment
 
-💡 What We Learned
-Simple is often best: The simplest model won.
+Number of Major Vessels
 
-Preparing data is key: The KNN model failed because we missed an important data preparation step.
+Thalassemia
 
-Always test different models: You never know which one will work best for your data.
+Target Variable
+Value	Meaning
+0	No Heart Disease
+1	Presence of Heart Disease
 
-🚀 Next Steps: How to Make This Better
-Fix the worst model: Add "Feature Scaling" to your code. This will make all numbers have a similar scale and should make the KNN model much more accurate.
+⚙️ Approach
 
-Tune the best model: Try to adjust the settings of Logistic Regression to see if you can get an even higher score.
+The project follows a standard machine learning workflow:
+
+1️⃣ Data Cleaning
+
+Checked dataset for missing values
+
+Handled incomplete records to ensure model accuracy
+
+2️⃣ Data Preparation
+
+Converted categorical variables into numerical form
+
+Prepared the target variable as a binary classification problem
