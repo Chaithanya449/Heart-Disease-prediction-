@@ -108,7 +108,7 @@ jupyter notebook Heart_Disease_prediction.ipynb
 
 # 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-lightgrey?logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?logo=numpy)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
@@ -135,11 +135,11 @@ heart-disease-prediction/
 
 # 🔮 Next Steps
 
-- [ ] `StandardScaler` — expected to significantly boost KNN and SVM scores
+- [ ] Apply `StandardScaler` — expected to significantly boost KNN and SVM scores
 - [ ] Hyperparameter tuning on XGBoost and Random Forest (GridSearchCV / Optuna)
-- [ ] Expanding metrics: AUC-ROC, Precision, Recall, F1 — accuracy alone is misleading for medical data
-- [ ] Handling class imbalance with SMOTE or `class_weight='balanced'`
-- [ ] Deploying best model via FastAPI + Docker
+- [ ] Expand metrics: AUC-ROC, Precision, Recall, F1 — accuracy alone is misleading for medical data
+- [ ] Handle class imbalance with SMOTE or `class_weight='balanced'`
+- [ ] Deploy best model via FastAPI + Docker
 
 ---
 
