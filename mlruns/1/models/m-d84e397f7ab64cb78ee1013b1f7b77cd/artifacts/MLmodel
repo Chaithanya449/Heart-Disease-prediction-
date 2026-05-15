@@ -1,0 +1,23 @@
+artifact_path: file:///c:/Users/vamsh/Downloads/Heart_Disease_Prediction_Upgrade/mlruns/1/models/m-d84e397f7ab64cb78ee1013b1f7b77cd/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-d84e397f7ab64cb78ee1013b1f7b77cd
+model_size_bytes: 2213051
+model_uuid: m-d84e397f7ab64cb78ee1013b1f7b77cd
+prompts: null
+run_id: e15c7d3f7b204cc7bf64ba841ff4d0f6
+utc_time_created: '2026-05-14 06:29:08.443548'
