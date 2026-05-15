@@ -8,7 +8,7 @@
 
 > A production-grade binary classification system that predicts heart disease risk from clinical patient data. Built as a full ML Engineer pipeline — from EDA to deployed API with experiment tracking, model explainability, and CI automation.
 
-**🔗 Live API:** [https://your-render-url.onrender.com/docs](https://your-render-url.onrender.com/docs)
+**🔗 Live API:** [https://heart-disease-prediction-s8re.onrender.com](https://heart-disease-prediction-s8re.onrender.com)
 
 ---
 
