@@ -88,7 +88,7 @@ GitHub Actions CI → Render Deployment
 
 SHAP (SHapley Additive exPlanations) applied on Tuned Random Forest to understand feature contributions.
 
-![SHAP Summary Plot](./shap_summary_plot.png)
+![SHAP Summary Plot](https://raw.githubusercontent.com/Chaithanya449/Heart-Disease-prediction-/master/shap_summary_plot.png)
 
 **Top features driving predictions:**
 
