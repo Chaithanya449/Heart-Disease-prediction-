@@ -1,4 +1,4 @@
-# 🫀 Heart Disease Risk Prediction — End-to-End ML Engineering Project
+#  Heart Disease Risk Prediction — End-to-End ML Engineering Project
 
 [![CI Pipeline](https://github.com/Chaithanya449/Heart-Disease-prediction-/actions/workflows/ci.yml/badge.svg)](https://github.com/Chaithanya449/Heart-Disease-prediction-/actions)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Heart disease is the leading cause of death globally. Early detection using clinical indicators can save lives. This project builds a binary classifier to predict whether a patient has heart disease based on 13 clinical features, with emphasis on recall (minimizing missed disease cases).
 
@@ -44,7 +44,7 @@ GitHub Actions CI → Render Deployment
 
 ---
 
-## 🧪 ML Pipeline
+## ML Pipeline
 
 ### Data Preprocessing
 - Identified 62 null values in `oldpeak` — applied **median imputation** (chosen over mean due to right-skewed distribution and outliers)
@@ -88,7 +88,7 @@ GitHub Actions CI → Render Deployment
 
 SHAP (SHapley Additive exPlanations) applied on Tuned Random Forest to understand feature contributions.
 
-![SHAP Summary Plot](shap_summary_plot.png)
+![SHAP Summary Plot](./shap_summary_plot.png)
 
 **Top features driving predictions:**
 
@@ -121,7 +121,7 @@ All 4 runs tracked in MLflow with params, metrics, and model artifacts.
 
 ---
 
-## 🚀 FastAPI Endpoint
+## FastAPI Endpoint
 
 **Base URL:** `https://your-render-url.onrender.com`
 
@@ -220,8 +220,8 @@ Open: `http://localhost:8000/docs`
 ## 🐳 Run with Docker
 
 ```bash
-docker pull chaithanya449/heart-disease-api
-docker run -p 8000:8000 chaithanya449/heart-disease-api
+docker pull ck17041704/heart-disease-api:latest
+docker run -p 8000:8000 ck17041704/heart-disease-api:latest
 ```
 
 ---
@@ -250,7 +250,7 @@ Ensures only tested code reaches deployment.
 
 ---
 
-## 📌 Key ML Engineering Decisions
+##  Key ML Engineering Decisions
 
 | Decision | Reasoning |
 |---|---|
