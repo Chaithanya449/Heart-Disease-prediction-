@@ -20,7 +20,7 @@ Heart disease is the leading cause of death globally. Early detection using clin
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```
 Raw Data (908 rows)
@@ -84,7 +84,7 @@ GitHub Actions CI → Render Deployment
 
 ---
 
-## 🔍 SHAP Explainability
+##  SHAP Explainability
 
 SHAP (SHapley Additive exPlanations) applied on Tuned Random Forest to understand feature contributions.
 
@@ -104,7 +104,7 @@ Model learned clinically meaningful patterns — not just statistical noise.
 
 ---
 
-## 📈 MLflow Experiment Tracking
+##  MLflow Experiment Tracking
 
 All 4 runs tracked in MLflow with params, metrics, and model artifacts.
 
@@ -204,7 +204,7 @@ Heart-Disease-prediction-/
 
 ---
 
-## ⚙️ Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/Chaithanya449/Heart-Disease-prediction-
@@ -226,7 +226,7 @@ docker run -p 8000:8000 ck17041704/heart-disease-api:latest
 
 ---
 
-## ✅ Run Tests
+##  Run Tests
 
 ```bash
 pytest test_main.py -v
@@ -240,7 +240,7 @@ pytest test_main.py -v
 
 ---
 
-## 🔄 CI Pipeline
+## CI Pipeline
 
 On every push to `master`:
 ```
